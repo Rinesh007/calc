@@ -38,9 +38,17 @@ form input[type="button"]:hover {
     font-size: 18px;
 }
 
-.form .display {
+form .display {
     display: flex;
     justify-content: flex-end;
-    margin: 5px;
+    margin: 5px 0px 15px 0px;
 
+}
+form .display input
+{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    padding: 5px 10px; 
+    background-color: rgb(47, 47, 47);
 }
