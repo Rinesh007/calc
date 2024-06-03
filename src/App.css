@@ -14,7 +14,7 @@ body {
 .calculator {
     padding: 20px;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(222, 222, 222);
 
 }
 
@@ -50,5 +50,20 @@ form .display input
     flex: 1;
     font-size: 40px;
     padding: 5px 10px; 
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(50, 50, 50);
+}
+
+form input.equal
+{
+    width: 120px;
+    background-color: orange;
+}
+form input.del
+{
+    background-color: red;
+}
+
+form input.clr{
+    background-color: white;
+    color: black;
 }

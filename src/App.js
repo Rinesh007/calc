@@ -11,8 +11,8 @@ function App() {
             <input type="text" />
           </div>
           <div>
-            <input type="button" value="AC" />
-            <input type="button" value="DEL" />
+            <input type="button" value="AC" className='clr' />
+            <input type="button" value="DEL" className='del' />
             <input type="button" value="." />
             <input type="button" value="/" />
           </div>
@@ -39,7 +39,7 @@ function App() {
           <div>
             <input type="button" value="0" />
             <input type="button" value="00" />
-            <input type="button" value="=" />
+            <input type="button" value="=" className='equal'/>
 
           </div>
 
